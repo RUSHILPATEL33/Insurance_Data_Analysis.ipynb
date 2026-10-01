@@ -1,10 +1,10 @@
 # Insurance Data Analysis
 
-This project focuses on exploring and analyzing an insurance dataset using Python. It includes data exploration, preprocessing, feature engineering, and statistical analysis to understand the relationships between different features and insurance charges.
+A beginner-friendly data analysis project using Python to explore and understand an insurance dataset.
 
 ## 📊 Dataset
 
-The dataset contains **1,338 records** with the following features:
+The dataset contains **1,338 records** and 7 features:
 
 - Age
 - Sex
@@ -14,12 +14,14 @@ The dataset contains **1,338 records** with the following features:
 - Region
 - Charges
 
-## 🔍 What This Project Covers
+## 🔍 Analysis Performed
+
+This project covers:
 
 - Data loading and inspection
 - Exploratory Data Analysis (EDA)
-- Missing value checking
-- Duplicate value handling
+- Checking for missing values
+- Handling duplicate values
 - Categorical data encoding
 - One-hot encoding
 - Feature engineering
@@ -35,7 +37,7 @@ The dataset contains **1,338 records** with the following features:
 - Pandas
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- Google Colab / Jupyter Notebook
 
 ## 📁 Project Structure
 
@@ -43,10 +45,7 @@ The dataset contains **1,338 records** with the following features:
 Insurance-Data-Analysis/
 │
 ├── Insurance_Data_Analysis.ipynb
-├── README.md
-├── requirements.txt
-└── data/
-    └── insurance.csv
+└── README.md
 ```
 
 ## 🚀 How to Run
@@ -57,29 +56,15 @@ Insurance-Data-Analysis/
 git clone <your-repository-url>
 ```
 
-2. Navigate to the project directory:
+2. Open `Insurance_Data_Analysis.ipynb` in Jupyter Notebook, JupyterLab, or Google Colab.
 
-```bash
-cd Insurance-Data-Analysis
-```
+3. Run the cells sequentially.
 
-3. Install the required libraries:
+> **Note:** The notebook currently loads the dataset using the path used during development in Google Colab.
 
-```bash
-pip install -r requirements.txt
-```
+## 🎯 Project Objective
 
-4. Open the notebook:
-
-```bash
-jupyter notebook
-```
-
-5. Run `Insurance_Data_Analysis.ipynb`.
-
-## 🎯 Purpose
-
-This project was created as a learning project to practice Python-based data analysis, data preprocessing, visualization, feature engineering, and basic statistical feature selection.
+The objective of this project is to practice Python-based data analysis and understand how different data preprocessing, visualization, feature engineering, and statistical techniques can be applied to an insurance dataset.
 
 ## 👤 Author
 
